@@ -302,11 +302,12 @@ mobile devices
     #schedule .match span{
         font-size: 38px;
     }
-    .sponsors{
+    #sponsor .sponsors{
         grid-template-columns: repeat(2, 130px);
         grid-column-gap: 70px;
     }
-    footer{
-        display: none;
+    .footer-image img{
+        width: 271px;
+        height: 65px;
     }
 }
