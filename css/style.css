@@ -248,9 +248,13 @@ mobile devices
 ------------*/
 
 @media only screen and (max-width:480px) {
+
+    /*------------
+    banner section
+    -------------*/
     #banner{
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding-top: 45px;
         width: 100%;
     }
@@ -271,7 +275,38 @@ mobile devices
         width: 400px;
         height: 380px;
     }
-    #players, #schedule, .sponsors, footer{
+
+
+    
+    /*------------
+    player section
+    -------------*/
+    #players .blogs{
+        width: 330px;
+        grid-template-columns: 1fr;
+    }
+
+
+
+    /*------------
+    schedule section
+    -------------*/
+    #schedule{
+        flex-direction: column;
+        align-items: center;
+    }
+    #schedule .complete{
+        flex-direction: column;
+        align-items: center;
+    }
+    #schedule .match span{
+        font-size: 38px;
+    }
+    .sponsors{
+        grid-template-columns: repeat(2, 130px);
+        grid-column-gap: 70px;
+    }
+    footer{
         display: none;
     }
 }
