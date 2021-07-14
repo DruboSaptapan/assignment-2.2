@@ -258,6 +258,9 @@ mobile devices
     /*------------
     banner section
     -------------*/
+    body{
+        overflow-x: hidden;
+    }
     #banner{
         flex-direction: column;
         align-items: flex-start;
