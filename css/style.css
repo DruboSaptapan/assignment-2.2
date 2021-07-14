@@ -249,18 +249,15 @@ footer p{
 footer area end
 ------------- */
 
-/*-----------
-mobile devices
-------------*/
+/*-----------------
+small mobile devices
+------------------*/
 
 @media only screen and (max-width:480px) {
 
     /*------------
     banner section
     -------------*/
-    body{
-        overflow-x: hidden;
-    }
     #banner{
         flex-direction: column;
         align-items: flex-start;
@@ -311,10 +308,92 @@ mobile devices
     #schedule .match span{
         font-size: 38px;
     }
+
+
+    /*-------------
+    sponsor section
+    --------------*/
     #sponsor .sponsors{
         grid-template-columns: repeat(2, 130px);
         grid-column-gap: 70px;
     }
+
+
+
+    /*-----
+    footer
+    ------ */
+    .footer-image img{
+        width: 271px;
+        height: 65px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    #banner{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 45px;
+        width: 100%;
+    }
+    #banner .text h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin: 0 65px 30px 16px;
+        width: 350px;
+    }
+    #banner .text a{
+        margin-left: 16px;
+    }
+    #banner .image{
+        margin-top: 50px;
+        margin: 50px 16px;
+    }
+    #banner .image img{
+        width: 400px;
+        height: 380px;
+    }
+
+
+
+
+    /*------------
+    player section
+    -------------*/
+    #players .blogs{
+        width: 350px;
+        grid-template-columns: 1fr;
+    }
+
+
+    /*-------------
+    schedule section
+    -------------*/
+    #schedule{
+        flex-direction: column;
+        align-items: center;
+    }
+    #schedule .complete{
+        flex-direction: column;
+        align-items: center;
+    }
+    #schedule .match span{
+        font-size: 42px;
+    }
+
+
+    /*-------------
+    sponsor section
+    --------------*/
+    #sponsor .sponsors{
+        grid-template-columns: repeat(2, 130px);
+        grid-column-gap: 70px;
+    }
+
+
+    /*-------------
+    footer section
+    --------------*/
+
     .footer-image img{
         width: 271px;
         height: 65px;
