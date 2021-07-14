@@ -46,7 +46,7 @@ banner area start
 #banner img{
     width: 556px;
     height: 438px;
-    animation: animate1 0.05s ease-in infinite alternate;
+    animation: animate1 1.01s ease-out infinite alternate;
 }
 @keyframes animate1 {
     from{
