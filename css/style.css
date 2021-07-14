@@ -293,7 +293,6 @@ small mobile devices
     }
 
 
-
     /*------------
     schedule section
     -------------*/
@@ -328,6 +327,12 @@ small mobile devices
         height: 65px;
     }
 }
+/* -----------------------
+tables & larger smartphones
+-------------------------*/
+
+
+
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     #banner{
         flex-direction: column;
